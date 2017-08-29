@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D3A26131F161DAA00DA834F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A26121F161DAA00DA834F /* main.m */; };
+		8D3A26161F161DAA00DA834F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A26151F161DAA00DA834F /* AppDelegate.m */; };
+		8D3A26191F161DAA00DA834F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A26181F161DAA00DA834F /* ViewController.m */; };
+		8D3A261C1F161DAA00DA834F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A261A1F161DAA00DA834F /* Main.storyboard */; };
+		8D3A261E1F161DAA00DA834F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A261D1F161DAA00DA834F /* Assets.xcassets */; };
+		8D3A26211F161DAA00DA834F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3A261F1F161DAA00DA834F /* LaunchScreen.storyboard */; };
+		8D3A262C1F161DAA00DA834F /* ipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A262B1F161DAA00DA834F /* ipadTests.m */; };
+		8D3A26371F161DAA00DA834F /* ipadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A26361F161DAA00DA834F /* ipadUITests.m */; };
+		8D46C2CC1F31D12A00DC6B13 /* CoverWindowsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D46C2CB1F31D12A00DC6B13 /* CoverWindowsView.m */; };
+		8D4E2A191F4C145D0041EF0A /* FuYouSuccessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E2A181F4C145D0041EF0A /* FuYouSuccessVC.m */; };
+		8D4E2A1B1F4C156B0041EF0A /* ic_tixian_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E2A1A1F4C156B0041EF0A /* ic_tixian_success@2x.png */; };
+		8D4E2A1D1F4C18880041EF0A /* ic_chongzhi_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E2A1C1F4C18880041EF0A /* ic_chongzhi_success@2x.png */; };
+		8D6054D01F1708A70040AF20 /* UIViewController+AdapterIpad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6054CF1F1708A70040AF20 /* UIViewController+AdapterIpad.m */; };
+		8D6054D31F17113B0040AF20 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6054D21F17113B0040AF20 /* BaseViewController.m */; };
+		8D6054D61F173F330040AF20 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D6054D41F173F330040AF20 /* 111.jpg */; };
+		8D6054D71F173F330040AF20 /* 222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D6054D51F173F330040AF20 /* 222.jpg */; };
+		8D6054DA1F1742160040AF20 /* ipad-aaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D6054D81F1742160040AF20 /* ipad-aaa.jpg */; };
+		8D6054DB1F1742160040AF20 /* iphone-aaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D6054D91F1742160040AF20 /* iphone-aaa.jpg */; };
+		8D75DB2F1F1DA4EC0017BA4F /* UIImagePickerController+landscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75DB2E1F1DA4EC0017BA4F /* UIImagePickerController+landscape.m */; };
+		8D87D2471F429664001A6EFB /* BLDIYTrasitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87D2381F429664001A6EFB /* BLDIYTrasitionAnimation.m */; };
+		8D87D2481F429664001A6EFB /* BLPresentTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87D23A1F429664001A6EFB /* BLPresentTransitionAnimator.m */; };
+		8D87D2491F429664001A6EFB /* BLPushTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87D23C1F429664001A6EFB /* BLPushTransitionAnimator.m */; };
+		8D87D24A1F429664001A6EFB /* BLTabBarTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87D23E1F429664001A6EFB /* BLTabBarTransitionAnimator.m */; };
+		8D87D24B1F429664001A6EFB /* BLTransitionInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87D2411F429664001A6EFB /* BLTransitionInteraction.m */; };
+		8D87D24C1F429664001A6EFB /* UINavigationController+BLPushTrasition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87D2441F429664001A6EFB /* UINavigationController+BLPushTrasition.m */; };
+		8D87D24D1F429664001A6EFB /* UIViewController+BLPresentTrasition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87D2461F429664001A6EFB /* UIViewController+BLPresentTrasition.m */; };
+		8D87D2501F4296A0001A6EFB /* ONeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87D24F1F4296A0001A6EFB /* ONeViewController.m */; };
+		8DCED94E1F1DE618003BDEE9 /* BLImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCED94D1F1DE618003BDEE9 /* BLImagePickerViewController.m */; };
+		8DCED9521F1DE83B003BDEE9 /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCED9511F1DE83B003BDEE9 /* ImageHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D3A26281F161DAA00DA834F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D3A26061F161DAA00DA834F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D3A260D1F161DAA00DA834F;
+			remoteInfo = ipad;
+		};
+		8D3A26331F161DAA00DA834F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D3A26061F161DAA00DA834F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D3A260D1F161DAA00DA834F;
+			remoteInfo = ipad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D3A260E1F161DAA00DA834F /* ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3A26121F161DAA00DA834F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D3A26141F161DAA00DA834F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D3A26151F161DAA00DA834F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D3A26171F161DAA00DA834F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D3A26181F161DAA00DA834F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D3A261B1F161DAA00DA834F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D3A261D1F161DAA00DA834F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D3A26201F161DAA00DA834F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D3A26221F161DAA00DA834F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3A26271F161DAA00DA834F /* ipadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3A262B1F161DAA00DA834F /* ipadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipadTests.m; sourceTree = "<group>"; };
+		8D3A262D1F161DAA00DA834F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3A26321F161DAA00DA834F /* ipadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3A26361F161DAA00DA834F /* ipadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipadUITests.m; sourceTree = "<group>"; };
+		8D3A26381F161DAA00DA834F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D46C2CA1F31D12A00DC6B13 /* CoverWindowsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverWindowsView.h; sourceTree = "<group>"; };
+		8D46C2CB1F31D12A00DC6B13 /* CoverWindowsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverWindowsView.m; sourceTree = "<group>"; };
+		8D4E2A171F4C145D0041EF0A /* FuYouSuccessVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuYouSuccessVC.h; sourceTree = "<group>"; };
+		8D4E2A181F4C145D0041EF0A /* FuYouSuccessVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuYouSuccessVC.m; sourceTree = "<group>"; };
+		8D4E2A1A1F4C156B0041EF0A /* ic_tixian_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tixian_success@2x.png"; sourceTree = "<group>"; };
+		8D4E2A1C1F4C18880041EF0A /* ic_chongzhi_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_chongzhi_success@2x.png"; sourceTree = "<group>"; };
+		8D6054CE1F1708A70040AF20 /* UIViewController+AdapterIpad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AdapterIpad.h"; sourceTree = "<group>"; };
+		8D6054CF1F1708A70040AF20 /* UIViewController+AdapterIpad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AdapterIpad.m"; sourceTree = "<group>"; };
+		8D6054D11F17113B0040AF20 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8D6054D21F17113B0040AF20 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8D6054D41F173F330040AF20 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
+		8D6054D51F173F330040AF20 /* 222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222.jpg; sourceTree = "<group>"; };
+		8D6054D81F1742160040AF20 /* ipad-aaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ipad-aaa.jpg"; sourceTree = "<group>"; };
+		8D6054D91F1742160040AF20 /* iphone-aaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-aaa.jpg"; sourceTree = "<group>"; };
+		8D75DB2D1F1DA4EC0017BA4F /* UIImagePickerController+landscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+landscape.h"; sourceTree = "<group>"; };
+		8D75DB2E1F1DA4EC0017BA4F /* UIImagePickerController+landscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+landscape.m"; sourceTree = "<group>"; };
+		8D87D2371F429664001A6EFB /* BLDIYTrasitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDIYTrasitionAnimation.h; sourceTree = "<group>"; };
+		8D87D2381F429664001A6EFB /* BLDIYTrasitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDIYTrasitionAnimation.m; sourceTree = "<group>"; };
+		8D87D2391F429664001A6EFB /* BLPresentTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPresentTransitionAnimator.h; sourceTree = "<group>"; };
+		8D87D23A1F429664001A6EFB /* BLPresentTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPresentTransitionAnimator.m; sourceTree = "<group>"; };
+		8D87D23B1F429664001A6EFB /* BLPushTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPushTransitionAnimator.h; sourceTree = "<group>"; };
+		8D87D23C1F429664001A6EFB /* BLPushTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPushTransitionAnimator.m; sourceTree = "<group>"; };
+		8D87D23D1F429664001A6EFB /* BLTabBarTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTabBarTransitionAnimator.h; sourceTree = "<group>"; };
+		8D87D23E1F429664001A6EFB /* BLTabBarTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTabBarTransitionAnimator.m; sourceTree = "<group>"; };
+		8D87D23F1F429664001A6EFB /* BLTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTransitionAnimator.h; sourceTree = "<group>"; };
+		8D87D2401F429664001A6EFB /* BLTransitionInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTransitionInteraction.h; sourceTree = "<group>"; };
+		8D87D2411F429664001A6EFB /* BLTransitionInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTransitionInteraction.m; sourceTree = "<group>"; };
+		8D87D2421F429664001A6EFB /* BLTrasitionAnimatorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTrasitionAnimatorConfig.h; sourceTree = "<group>"; };
+		8D87D2431F429664001A6EFB /* UINavigationController+BLPushTrasition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BLPushTrasition.h"; sourceTree = "<group>"; };
+		8D87D2441F429664001A6EFB /* UINavigationController+BLPushTrasition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BLPushTrasition.m"; sourceTree = "<group>"; };
+		8D87D2451F429664001A6EFB /* UIViewController+BLPresentTrasition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BLPresentTrasition.h"; sourceTree = "<group>"; };
+		8D87D2461F429664001A6EFB /* UIViewController+BLPresentTrasition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BLPresentTrasition.m"; sourceTree = "<group>"; };
+		8D87D24E1F4296A0001A6EFB /* ONeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONeViewController.h; sourceTree = "<group>"; };
+		8D87D24F1F4296A0001A6EFB /* ONeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONeViewController.m; sourceTree = "<group>"; };
+		8DCED94C1F1DE618003BDEE9 /* BLImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLImagePickerViewController.h; sourceTree = "<group>"; };
+		8DCED94D1F1DE618003BDEE9 /* BLImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLImagePickerViewController.m; sourceTree = "<group>"; };
+		8DCED9501F1DE83B003BDEE9 /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		8DCED9511F1DE83B003BDEE9 /* ImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelper.m; sourceTree = "<group>"; };
+		8DCED9531F1DE8AE003BDEE9 /* BLPickerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLPickerConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D3A260B1F161DAA00DA834F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3A26241F161DAA00DA834F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3A262F1F161DAA00DA834F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D3A26051F161DAA00DA834F = {
+			isa = PBXGroup;
+			children = (
+				8D3A26101F161DAA00DA834F /* ipad */,
+				8D3A262A1F161DAA00DA834F /* ipadTests */,
+				8D3A26351F161DAA00DA834F /* ipadUITests */,
+				8D3A260F1F161DAA00DA834F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D3A260F1F161DAA00DA834F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A260E1F161DAA00DA834F /* ipad.app */,
+				8D3A26271F161DAA00DA834F /* ipadTests.xctest */,
+				8D3A26321F161DAA00DA834F /* ipadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D3A26101F161DAA00DA834F /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				8DCED94F1F1DE819003BDEE9 /* BLImagePIcker */,
+				8D75DB2D1F1DA4EC0017BA4F /* UIImagePickerController+landscape.h */,
+				8D75DB2E1F1DA4EC0017BA4F /* UIImagePickerController+landscape.m */,
+				8D4E2A1A1F4C156B0041EF0A /* ic_tixian_success@2x.png */,
+				8D6054D81F1742160040AF20 /* ipad-aaa.jpg */,
+				8D4E2A1C1F4C18880041EF0A /* ic_chongzhi_success@2x.png */,
+				8D6054D91F1742160040AF20 /* iphone-aaa.jpg */,
+				8D6054D41F173F330040AF20 /* 111.jpg */,
+				8D6054D51F173F330040AF20 /* 222.jpg */,
+				8D6054CE1F1708A70040AF20 /* UIViewController+AdapterIpad.h */,
+				8D6054CF1F1708A70040AF20 /* UIViewController+AdapterIpad.m */,
+				8D3A26141F161DAA00DA834F /* AppDelegate.h */,
+				8D3A26151F161DAA00DA834F /* AppDelegate.m */,
+				8D3A26171F161DAA00DA834F /* ViewController.h */,
+				8D3A26181F161DAA00DA834F /* ViewController.m */,
+				8D46C2CA1F31D12A00DC6B13 /* CoverWindowsView.h */,
+				8D46C2CB1F31D12A00DC6B13 /* CoverWindowsView.m */,
+				8D87D24E1F4296A0001A6EFB /* ONeViewController.h */,
+				8D87D24F1F4296A0001A6EFB /* ONeViewController.m */,
+				8D6054D11F17113B0040AF20 /* BaseViewController.h */,
+				8D6054D21F17113B0040AF20 /* BaseViewController.m */,
+				8D4E2A171F4C145D0041EF0A /* FuYouSuccessVC.h */,
+				8D4E2A181F4C145D0041EF0A /* FuYouSuccessVC.m */,
+				8D3A261A1F161DAA00DA834F /* Main.storyboard */,
+				8D3A261D1F161DAA00DA834F /* Assets.xcassets */,
+				8D3A261F1F161DAA00DA834F /* LaunchScreen.storyboard */,
+				8D3A26221F161DAA00DA834F /* Info.plist */,
+				8D3A26111F161DAA00DA834F /* Supporting Files */,
+			);
+			path = ipad;
+			sourceTree = "<group>";
+		};
+		8D3A26111F161DAA00DA834F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A26121F161DAA00DA834F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D3A262A1F161DAA00DA834F /* ipadTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A262B1F161DAA00DA834F /* ipadTests.m */,
+				8D3A262D1F161DAA00DA834F /* Info.plist */,
+			);
+			path = ipadTests;
+			sourceTree = "<group>";
+		};
+		8D3A26351F161DAA00DA834F /* ipadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A26361F161DAA00DA834F /* ipadUITests.m */,
+				8D3A26381F161DAA00DA834F /* Info.plist */,
+			);
+			path = ipadUITests;
+			sourceTree = "<group>";
+		};
+		8D87D2361F429664001A6EFB /* BLTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8D87D2371F429664001A6EFB /* BLDIYTrasitionAnimation.h */,
+				8D87D2381F429664001A6EFB /* BLDIYTrasitionAnimation.m */,
+				8D87D2391F429664001A6EFB /* BLPresentTransitionAnimator.h */,
+				8D87D23A1F429664001A6EFB /* BLPresentTransitionAnimator.m */,
+				8D87D23B1F429664001A6EFB /* BLPushTransitionAnimator.h */,
+				8D87D23C1F429664001A6EFB /* BLPushTransitionAnimator.m */,
+				8D87D23D1F429664001A6EFB /* BLTabBarTransitionAnimator.h */,
+				8D87D23E1F429664001A6EFB /* BLTabBarTransitionAnimator.m */,
+				8D87D23F1F429664001A6EFB /* BLTransitionAnimator.h */,
+				8D87D2401F429664001A6EFB /* BLTransitionInteraction.h */,
+				8D87D2411F429664001A6EFB /* BLTransitionInteraction.m */,
+				8D87D2421F429664001A6EFB /* BLTrasitionAnimatorConfig.h */,
+				8D87D2431F429664001A6EFB /* UINavigationController+BLPushTrasition.h */,
+				8D87D2441F429664001A6EFB /* UINavigationController+BLPushTrasition.m */,
+				8D87D2451F429664001A6EFB /* UIViewController+BLPresentTrasition.h */,
+				8D87D2461F429664001A6EFB /* UIViewController+BLPresentTrasition.m */,
+			);
+			path = BLTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		8DCED94F1F1DE819003BDEE9 /* BLImagePIcker */ = {
+			isa = PBXGroup;
+			children = (
+				8D87D2361F429664001A6EFB /* BLTransitionAnimation */,
+				8DCED9531F1DE8AE003BDEE9 /* BLPickerConfig.h */,
+				8DCED9501F1DE83B003BDEE9 /* ImageHelper.h */,
+				8DCED9511F1DE83B003BDEE9 /* ImageHelper.m */,
+				8DCED94C1F1DE618003BDEE9 /* BLImagePickerViewController.h */,
+				8DCED94D1F1DE618003BDEE9 /* BLImagePickerViewController.m */,
+			);
+			name = BLImagePIcker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D3A260D1F161DAA00DA834F /* ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3A263B1F161DAA00DA834F /* Build configuration list for PBXNativeTarget "ipad" */;
+			buildPhases = (
+				8D3A260A1F161DAA00DA834F /* Sources */,
+				8D3A260B1F161DAA00DA834F /* Frameworks */,
+				8D3A260C1F161DAA00DA834F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipad;
+			productName = ipad;
+			productReference = 8D3A260E1F161DAA00DA834F /* ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D3A26261F161DAA00DA834F /* ipadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3A263E1F161DAA00DA834F /* Build configuration list for PBXNativeTarget "ipadTests" */;
+			buildPhases = (
+				8D3A26231F161DAA00DA834F /* Sources */,
+				8D3A26241F161DAA00DA834F /* Frameworks */,
+				8D3A26251F161DAA00DA834F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D3A26291F161DAA00DA834F /* PBXTargetDependency */,
+			);
+			name = ipadTests;
+			productName = ipadTests;
+			productReference = 8D3A26271F161DAA00DA834F /* ipadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D3A26311F161DAA00DA834F /* ipadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3A26411F161DAA00DA834F /* Build configuration list for PBXNativeTarget "ipadUITests" */;
+			buildPhases = (
+				8D3A262E1F161DAA00DA834F /* Sources */,
+				8D3A262F1F161DAA00DA834F /* Frameworks */,
+				8D3A26301F161DAA00DA834F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D3A26341F161DAA00DA834F /* PBXTargetDependency */,
+			);
+			name = ipadUITests;
+			productName = ipadUITests;
+			productReference = 8D3A26321F161DAA00DA834F /* ipadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D3A26061F161DAA00DA834F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "冰泪";
+				TargetAttributes = {
+					8D3A260D1F161DAA00DA834F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E4A85X89FN;
+						ProvisioningStyle = Automatic;
+					};
+					8D3A26261F161DAA00DA834F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D3A260D1F161DAA00DA834F;
+					};
+					8D3A26311F161DAA00DA834F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D3A260D1F161DAA00DA834F;
+					};
+				};
+			};
+			buildConfigurationList = 8D3A26091F161DAA00DA834F /* Build configuration list for PBXProject "ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D3A26051F161DAA00DA834F;
+			productRefGroup = 8D3A260F1F161DAA00DA834F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D3A260D1F161DAA00DA834F /* ipad */,
+				8D3A26261F161DAA00DA834F /* ipadTests */,
+				8D3A26311F161DAA00DA834F /* ipadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D3A260C1F161DAA00DA834F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6054DB1F1742160040AF20 /* iphone-aaa.jpg in Resources */,
+				8D3A26211F161DAA00DA834F /* LaunchScreen.storyboard in Resources */,
+				8D3A261E1F161DAA00DA834F /* Assets.xcassets in Resources */,
+				8D6054DA1F1742160040AF20 /* ipad-aaa.jpg in Resources */,
+				8D4E2A1D1F4C18880041EF0A /* ic_chongzhi_success@2x.png in Resources */,
+				8D6054D71F173F330040AF20 /* 222.jpg in Resources */,
+				8D4E2A1B1F4C156B0041EF0A /* ic_tixian_success@2x.png in Resources */,
+				8D6054D61F173F330040AF20 /* 111.jpg in Resources */,
+				8D3A261C1F161DAA00DA834F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3A26251F161DAA00DA834F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3A26301F161DAA00DA834F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D3A260A1F161DAA00DA834F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6054D01F1708A70040AF20 /* UIViewController+AdapterIpad.m in Sources */,
+				8D87D24A1F429664001A6EFB /* BLTabBarTransitionAnimator.m in Sources */,
+				8D6054D31F17113B0040AF20 /* BaseViewController.m in Sources */,
+				8DCED94E1F1DE618003BDEE9 /* BLImagePickerViewController.m in Sources */,
+				8D87D24D1F429664001A6EFB /* UIViewController+BLPresentTrasition.m in Sources */,
+				8DCED9521F1DE83B003BDEE9 /* ImageHelper.m in Sources */,
+				8D87D24B1F429664001A6EFB /* BLTransitionInteraction.m in Sources */,
+				8D3A26191F161DAA00DA834F /* ViewController.m in Sources */,
+				8D87D2491F429664001A6EFB /* BLPushTransitionAnimator.m in Sources */,
+				8D87D24C1F429664001A6EFB /* UINavigationController+BLPushTrasition.m in Sources */,
+				8D87D2471F429664001A6EFB /* BLDIYTrasitionAnimation.m in Sources */,
+				8D75DB2F1F1DA4EC0017BA4F /* UIImagePickerController+landscape.m in Sources */,
+				8D87D2481F429664001A6EFB /* BLPresentTransitionAnimator.m in Sources */,
+				8D4E2A191F4C145D0041EF0A /* FuYouSuccessVC.m in Sources */,
+				8D3A26161F161DAA00DA834F /* AppDelegate.m in Sources */,
+				8D3A26131F161DAA00DA834F /* main.m in Sources */,
+				8D87D2501F4296A0001A6EFB /* ONeViewController.m in Sources */,
+				8D46C2CC1F31D12A00DC6B13 /* CoverWindowsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3A26231F161DAA00DA834F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3A262C1F161DAA00DA834F /* ipadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3A262E1F161DAA00DA834F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3A26371F161DAA00DA834F /* ipadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D3A26291F161DAA00DA834F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D3A260D1F161DAA00DA834F /* ipad */;
+			targetProxy = 8D3A26281F161DAA00DA834F /* PBXContainerItemProxy */;
+		};
+		8D3A26341F161DAA00DA834F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D3A260D1F161DAA00DA834F /* ipad */;
+			targetProxy = 8D3A26331F161DAA00DA834F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D3A261A1F161DAA00DA834F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D3A261B1F161DAA00DA834F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D3A261F1F161DAA00DA834F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D3A26201F161DAA00DA834F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D3A26391F161DAA00DA834F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D3A263A1F161DAA00DA834F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D3A263C1F161DAA00DA834F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E4A85X89FN;
+				INFOPLIST_FILE = ipad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = binglei.ipad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D3A263D1F161DAA00DA834F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E4A85X89FN;
+				INFOPLIST_FILE = ipad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = binglei.ipad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D3A263F1F161DAA00DA834F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ipadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = binglei.ipadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipad.app/ipad";
+			};
+			name = Debug;
+		};
+		8D3A26401F161DAA00DA834F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ipadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = binglei.ipadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipad.app/ipad";
+			};
+			name = Release;
+		};
+		8D3A26421F161DAA00DA834F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ipadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = binglei.ipadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ipad;
+			};
+			name = Debug;
+		};
+		8D3A26431F161DAA00DA834F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ipadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = binglei.ipadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ipad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D3A26091F161DAA00DA834F /* Build configuration list for PBXProject "ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3A26391F161DAA00DA834F /* Debug */,
+				8D3A263A1F161DAA00DA834F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3A263B1F161DAA00DA834F /* Build configuration list for PBXNativeTarget "ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3A263C1F161DAA00DA834F /* Debug */,
+				8D3A263D1F161DAA00DA834F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3A263E1F161DAA00DA834F /* Build configuration list for PBXNativeTarget "ipadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3A263F1F161DAA00DA834F /* Debug */,
+				8D3A26401F161DAA00DA834F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3A26411F161DAA00DA834F /* Build configuration list for PBXNativeTarget "ipadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3A26421F161DAA00DA834F /* Debug */,
+				8D3A26431F161DAA00DA834F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D3A26061F161DAA00DA834F /* Project object */;
+}
